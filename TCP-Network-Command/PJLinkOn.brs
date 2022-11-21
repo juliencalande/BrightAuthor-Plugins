@@ -25,7 +25,7 @@ REM set standard PJLink port 4352
 REM define the message "%1POWR 1" in HEX to power ON the projector
 
 	projector_port=4352
-	projector_message$="2531504F575220310D0A"
+	projector_message$="2531504F575220300D0A"
 
       	if type(event) = "roAssociativeArray" then
           	if type(event["EventType"]) = "roString"
